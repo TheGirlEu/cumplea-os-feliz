@@ -83,7 +83,7 @@
       border-radius: 16px;
     }
 
-    /* Texto pequeño debajo */
+     /* Texto pequeño debajo */
     .hint {
       color: #ffffff66;
       font-size: 13px;
@@ -93,6 +93,29 @@
     /* Responsive tweaks */
     @media (max-width:520px){
       .balloon { width:48px;height:64px; }
-      .cake img { width: 46vw; }
+      .cake img { 
+    width: 60vw; 
+    max-width: none; 
+    margin-top: -32px;
+  }
+  body {
+    overflow: hidden;
+  }
     }
+
+
+
+/*-------------- CRÉDITOS --------------*/
+.creditos {
+  position: fixed;
+  bottom: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  font-size: 14px;
+  z-index: 20;
+}
+
 
