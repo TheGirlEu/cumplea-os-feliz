@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <title>Feliz Cumpleaños - Fuegos Artificiales</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+</head>
+<body>
+  <!-- Canvas para efectos -->
+  <canvas id="fx"></canvas>
+
+    <!-- Música oculta -->
+  <audio id="bg-music" loop>
+    <source src="musica/Cumpleaños Feliz.mp3" type="audio/mpeg">
+    Tu navegador no soporta audio HTML5.
+  </audio>
+
+  <div class="wrap">
+    <div class="balloons" aria-hidden="true">
+      <div class="balloon" style="--i:0"></div>
+      <div class="balloon" style="--i:1"></div>
+      <div class="balloon" style="--i:2"></div>
+      <div class="balloon" style="--i:3"></div>
+      <div class="balloon" style="--i:4"></div>
+    </div>
+
+    <h1>🎉 Feliz Cumpleaños ❤️</h1>
+    <p class="sub">Esperemos que hoy sea una día muy especial, que lo disfrutes al máximo al lado de tus seres queridos, </br> gracias por ser una madre ejemplar y cuidarlo, espero que siga cumpliendo muchos años más, abrazos 🫂</p>
+
+    <div class="cake">
+      <!-- Cambia la URL por la torta que quieras -->
+      <img src="img/pastel1.png" alt="Torta de cumpleaños">
+    </div>
+
+  </div>
+
+  <script src="script.js"> </script>
+</body>
+</html>
